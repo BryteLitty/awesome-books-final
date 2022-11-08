@@ -10,7 +10,7 @@ setInterval(() => {
 });
 
 // books collection
-let booksCollection = JSON.parse(localStorage.getItem('books-collection')) || [];
+const booksCollection = JSON.parse(localStorage.getItem('books-collection')) || [];
 
 // call important functions
 loadBooks(booksCollection);
