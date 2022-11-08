@@ -12,8 +12,6 @@ class LuxonError extends Error {}
 class InvalidDateTimeError extends LuxonError {
   constructor(reason) {
     super(`Invalid DateTime: ${reason.toMessage()}`);
-    
-
   }
 }
 
